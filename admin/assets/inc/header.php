@@ -1,6 +1,6 @@
 
 <?php 
-include("assets/inc/db.inc.php");
+include("assets/inc/function.inc.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">

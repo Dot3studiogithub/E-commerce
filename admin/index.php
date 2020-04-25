@@ -16,6 +16,9 @@ include("assets/inc/db.inc.php");
 <script src="assets/js/all.js"></script>
 <script src="assets/js/popper.js"></script>
 <script src="assets/js/chart.js"></script>
+
+  
+
 </head>
 <body>
 
@@ -34,10 +37,10 @@ include("assets/inc/db.inc.php");
                 <!-- end fiture   -->
                 <div class="col-md-6">
                 <div class="text-center">
-                    <form action="admin_login.config.php" method="POST" class="myloginform">
+                    <form action="login_config.php" method="POST" class="myloginform">
                         <div class="form-group mb-3">
                             <label for="">Username</label>
-                            <input type="email" name="userName"  class="form-control" required>
+                            <input type="email" name="userName"  class="form-control" autocomplete="off" required>
                         </div>
                         <div class="form-group">
                             <label for="">Password</label>
@@ -45,7 +48,7 @@ include("assets/inc/db.inc.php");
                         </div>
                         <div class="text-center">
 
-                        <button type="submit" class="btn btn-primary" name="login">LOGIN</button>
+                        <button type="submit" class="btn btn-outline-primary" name="login">LOGIN</button>
                         </div>
                     </form>
                    
