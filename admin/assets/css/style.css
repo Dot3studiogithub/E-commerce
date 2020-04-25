@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 13px;
+}
+.my-logo{
+  font-family: 'Fugaz One', cursive;
+}
+
+.mycard{
+    margin-top: 180px;
+    box-shadow: 0 0 12px;
+    border-radius: 10px;
+    
+    
+}
+.fiture{
+    background-color:#363062 ;
+   border-radius: 10px;
+}
+.fiture-text{
+    margin-top: 80px;
+}
+
+.myloginform{
+    margin-top: 80px;
+}
+
+/* dashboard styling  */
+/* navbar  */
+
+.sidebar{
+   min-height: 100vh;
+    background-color: #000;
+
+}
+
+.sidebar-link{
+    transition: .5s ease-in-out;
+    color: #fff;
+    
+}
+
+.sidebar-link:hover{
+    background-color:tomato;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.active{
+    background-color:tomato;
+    border-radius: 10px;
+}
+
+@media(max-width: 768px)
+{
+    .sidebar{
+        position: static;
+    }
+    .top-navbar{position: static;}
+}
