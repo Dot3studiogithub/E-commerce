@@ -32,9 +32,9 @@ body{
 <body>
 <section class="register-section">
 <div class="container">
-<div class="h3 text-center text-uppercase text-secondary pt-3">Please Register Your Account</div>
+<div class="h3 text-center text-uppercase text-secondary pt-3">Please login Your Account</div>
 <div class="row">
-<div class="col-md-8 offset-md-2 my-5 mycard1">
+<div class="col-md-6 offset-md-3 my-5 mycard1">
 <div class="h6 text-danger">
 <?php 
 
@@ -45,30 +45,20 @@ if(isset($_SESSION['message']))
 }
 
 ?></div>
-<form action="register_config.php" method="POST">
+<form action="login_config.php" method="POST">
+
 <div class="form-group">
-<label for="name" class="text-light"> <i class="fas fa-user"></i>Name</label>
-<input type="text" name="name" class="form-control" autocomplete="off" required>
+<label for="email" class="text-light"> <i class="fas fa-envelope mr-2"></i>E-mail</label>
+<input type="email" name="inemail" class="form-control" autocomplete="off" required>
 </div>
 <div class="form-group">
-<label for="email" class="text-light"> <i class="fas fa-envelope"></i>E-mail</label>
-<input type="text" name="email" class="form-control" autocomplete="off" required>
-</div>
-<div class="form-group">
-<label for="password" class="text-light"> <i class="fas fa-key"></i>Password</label>
-<input type="password" name="password" class="form-control" autocomplete="off" required>
-</div>
-<div class="form-group">
-<label for="re-password" class="text-light"> <i class="fas fa-key"></i>Re-Password</label>
-<input type="password" name="repassword" class="form-control" autocomplete="off" required>
-</div>
-<div class="form-group">
-<label for="contact" class="text-light"> <i class="fas fa-phone"></i>Mobile-Number</label>
-<input type="text" name="contactnumber" class="form-control" autocomplete="off" required>
+<label for="password" class="text-light"> <i class="fas fa-key mr-2"></i>Password</label>
+<input type="password" name="inpassword" class="form-control" autocomplete="off" required>
 </div>
 
+
 <div class="text-center">
-<button type="submit" name="register" class="btn btn-success">Register</button>
+<button type="submit" name="login" class="btn btn-success">login</button>
 
 </div>
 
