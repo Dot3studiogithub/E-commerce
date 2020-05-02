@@ -64,7 +64,7 @@ if(isset($_SESSION['message']))
 
 
 </form>
-
+<span class="text-light">Don't have an account? <a href="user_register.php">register</a></span>
 </div>
 </div>
 </div>
