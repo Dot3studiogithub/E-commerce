@@ -157,11 +157,12 @@
 <div class="row">
 <div class="col-md-12">
 <div class="owl-carousel owl-theme">
+  <!-- start first product card  -->
     <div class="item">
       <a href="" class="text-decoration-none">
       <div class="card mycard">
       
-        <img src="assets/img/mobile-png-10855.png" alt="" class="card-img-top">
+        <img src="assets/img/mobile-png-10855.png" alt="" width="200px" height="200px" class="card-img-top">
      <div class="card-body">
        <div>
        
@@ -186,17 +187,200 @@
     </div>
     </a>
   </div>
-    <div class="item"><img src="assets/img/mobile-png-10855.png" alt=""></div>
-    <div class="item"><img src="assets/img/mobile-png-10855.png" alt=""></div>
-    <div class="item"><img src="assets/img/mobile-png-10855.png" alt=""></div>
-    <div class="item"><img src="assets/img/mobile-png-10855.png" alt=""></div>
-    <div class="item"><img src="assets/img/mobile-png-10855.png" alt=""></div>
-    <div class="item"><img src="assets/img/mobile-png-10855.png" alt=""></div>
-    <div class="item"><img src="assets/img/mobile-png-10855.png" alt=""></div>
-    <div class="item"><img src="assets/img/mobile-png-10855.png" alt=""></div>
-    <div class="item"><img src="assets/img/mobile-png-10855.png" alt=""></div>
-    <div class="item"><img src="assets/img/mobile-png-10855.png" alt=""></div>
-    <div class="item"><img src="assets/img/mobile-png-10855.png" alt=""></div>
+  <!-- end first product card  -->
+
+  <!-- start first product card  -->
+    <div class="item">
+      <a href="" class="text-decoration-none">
+      <div class="card mycard">
+      
+        <img src="assets/img/laptop.png" alt="" width="200px" height="200px" class="card-img-top">
+     <div class="card-body">
+       <div>
+       
+         <div class="h6 text-center">Dell laptop</div>
+         <div class="rating text-center">
+           <span><i class="fas fa-star text-warning"></i></span>
+             <span><i class="fas fa-star text-warning"></i></span>
+               <span><i class="fas fa-star text-warning"></i></span>
+                 <span><i class="fas fa-star text-warning"></i></span>
+                   <span><i class="fas fa-star-half-alt text-warning"></i></span>
+         </div>
+         <div class="h6 text-center">
+           <span class="strike">Rs. 42,999</span>
+           <span>Rs. 41,849.05</span>
+         </div>
+         <div class="text-light text-center text-left  bg-success w-50">5% OFF</div>
+
+       
+       </div>
+       
+     </div>
+    </div>
+    </a>
+  </div>
+  <!-- end first product card  -->
+
+  <!-- start first product card  -->
+    <div class="item">
+      <a href="" class="text-decoration-none">
+      <div class="card mycard">
+      
+        <img src="assets/img/tv1.png" alt="" width="200px" height="200px" class="card-img-top">
+     <div class="card-body">
+       <div>
+       
+         <div class="h6 text-center">samsung gallaxy s6 adge</div>
+         <div class="rating text-center">
+           <span><i class="fas fa-star text-warning"></i></span>
+             <span><i class="fas fa-star text-warning"></i></span>
+               <span><i class="fas fa-star text-warning"></i></span>
+                 <span><i class="fas fa-star text-warning"></i></span>
+                   <span><i class="fas fa-star-half-alt text-warning"></i></span>
+         </div>
+         <div class="h6 text-center">
+           <span class="strike">Rs. 22,999</span>
+           <span>Rs. 21,849.05</span>
+         </div>
+         <div class="text-light text-center text-left  bg-success w-50">5% OFF</div>
+
+       
+       </div>
+       
+     </div>
+    </div>
+    </a>
+  </div>
+  <!-- end first product card  -->
+
+  <!-- start first product card  -->
+    <div class="item">
+      <a href="" class="text-decoration-none">
+      <div class="card mycard">
+      
+        <img src="assets/img/tv2.png" alt="" width="200px" height="200px" class="card-img-top">
+     <div class="card-body">
+       <div>
+       
+         <div class="h6 text-center">samsung gallaxy s6 adge</div>
+         <div class="rating text-center">
+           <span><i class="fas fa-star text-warning"></i></span>
+             <span><i class="fas fa-star text-warning"></i></span>
+               <span><i class="fas fa-star text-warning"></i></span>
+                 <span><i class="fas fa-star text-warning"></i></span>
+                   <span><i class="fas fa-star-half-alt text-warning"></i></span>
+         </div>
+         <div class="h6 text-center">
+           <span class="strike">Rs. 22,999</span>
+           <span>Rs. 21,849.05</span>
+         </div>
+         <div class="text-light text-center text-left  bg-success w-50">5% OFF</div>
+
+       
+       </div>
+       
+     </div>
+    </div>
+    </a>
+  </div>
+  <!-- end first product card  -->
+
+  <!-- start first product card  -->
+    <div class="item">
+      <a href="" class="text-decoration-none">
+      <div class="card mycard">
+      
+        <img src="assets/img/tv3.png" alt="" width="200px" height="200px" class="card-img-top">
+     <div class="card-body">
+       <div>
+       
+         <div class="h6 text-center">samsung gallaxy s6 adge</div>
+         <div class="rating text-center">
+           <span><i class="fas fa-star text-warning"></i></span>
+             <span><i class="fas fa-star text-warning"></i></span>
+               <span><i class="fas fa-star text-warning"></i></span>
+                 <span><i class="fas fa-star text-warning"></i></span>
+                   <span><i class="fas fa-star-half-alt text-warning"></i></span>
+         </div>
+         <div class="h6 text-center">
+           <span class="strike">Rs. 22,999</span>
+           <span>Rs. 21,849.05</span>
+         </div>
+         <div class="text-light text-center text-left  bg-success w-50">5% OFF</div>
+
+       
+       </div>
+       
+     </div>
+    </div>
+    </a>
+  </div>
+  <!-- end first product card  -->
+
+  <!-- start first product card  -->
+    <div class="item">
+      <a href="" class="text-decoration-none">
+      <div class="card mycard">
+      
+        <img src="assets/img/tv4.png" alt="" width="200px" height="200px" class="card-img-top">
+     <div class="card-body">
+       <div>
+       
+         <div class="h6 text-center">samsung gallaxy s6 adge</div>
+         <div class="rating text-center">
+           <span><i class="fas fa-star text-warning"></i></span>
+             <span><i class="fas fa-star text-warning"></i></span>
+               <span><i class="fas fa-star text-warning"></i></span>
+                 <span><i class="fas fa-star text-warning"></i></span>
+                   <span><i class="fas fa-star-half-alt text-warning"></i></span>
+         </div>
+         <div class="h6 text-center">
+           <span class="strike">Rs. 22,999</span>
+           <span>Rs. 21,849.05</span>
+         </div>
+         <div class="text-light text-center text-left  bg-success w-50">5% OFF</div>
+
+       
+       </div>
+       
+     </div>
+    </div>
+    </a>
+  </div>
+  <!-- end first product card  -->
+
+  <!-- start first product card  -->
+    <div class="item">
+      <a href="" class="text-decoration-none">
+      <div class="card mycard">
+      
+        <img src="assets/img/mobile-png-10855.png" width="200px" height="200px" alt="" class="card-img-top">
+     <div class="card-body">
+       <div>
+       
+         <div class="h6 text-center">samsung gallaxy s6 adge</div>
+         <div class="rating text-center">
+           <span><i class="fas fa-star text-warning"></i></span>
+             <span><i class="fas fa-star text-warning"></i></span>
+               <span><i class="fas fa-star text-warning"></i></span>
+                 <span><i class="fas fa-star text-warning"></i></span>
+                   <span><i class="fas fa-star-half-alt text-warning"></i></span>
+         </div>
+         <div class="h6 text-center">
+           <span class="strike">Rs. 22,999</span>
+           <span>Rs. 21,849.05</span>
+         </div>
+         <div class="text-light text-center text-left  bg-success w-50">5% OFF</div>
+
+       
+       </div>
+       
+     </div>
+    </div>
+    </a>
+  </div>
+  <!-- end first product card  -->
+    
    
 </div>
 </div>
@@ -321,7 +505,7 @@ app only offers on your fingertip </div>
        <!-- start footer column 1  -->
        <div class="col-md-3">
          <div class="">
-           <div class="h3 text-uppercase text-dark pl-3">policy info</div>
+           <div class="h5 text-uppercase text-dark pl-3">policy info</div>
            <ul class="nav flex-column">
              <li class="nav-item">
                <a href="#" class="nav-link text-secondary pb-0">privecy policy</a>
@@ -401,6 +585,91 @@ or download app</div>
 </div>
 
 </section>
+
+<section class="payment-card">
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+<div>
+<div class="h5">Payment</div>
+<ul class="nav">
+<li class="nav-item">
+<div class="nav-link">
+<i class="fas fa-credit-card fa-2x text-primary"></i>
+</div>
+</li>
+
+<li class="nav-item">
+<div class="nav-link">
+<i class="fab fa-cc-mastercard fa-2x text-warning"></i>
+</div>
+</li>
+
+<li class="nav-item">
+<div class="nav-link">
+<i class="fab fa-cc-visa fa-2x text-danger"></i>
+</div>
+</li>
+
+<li class="nav-item">
+<div class="nav-link">
+<i class="fab fa-cc-paypal fa-2x text-info"></i>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="col-md-6">
+<div class="h5">Connect</div>
+<ul class="nav">
+<li class="nav-item">
+<a href="" class="nav-link">
+<i class="fab fa-facebook fa-2x text-primary"></i>
+</a>
+</li>
+
+<li class="nav-item">
+<a href="" class="nav-link">
+<i class="fab fa-twitter fa-2x text-warning"></i>
+</a>
+</li>
+
+<li class="nav-item">
+<a href="#" class="nav-link">
+<i class="fab fa-linkedin-in fa-2x text-danger"></i>
+</a>
+</li>
+
+<li class="nav-item">
+<a href="#" class="nav-link">
+<i class="fab fa-pinterest-p fa-2x text-info"></i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+
+
+
+<section class="aboutus my-5">
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12">
+       <div class="h3 my-3 text-dark text-uppercase">About-bazaarhunt</div>
+       
+       <div class="text-justify">
+         India’s Ultimate Online Shopping Site Bazaarhunt's vision is to create India’s most reliable and frictionless commerce ecosystem that creates life-changing experiences for buyers and sellers. In February 2020, Kapil Dabas , started Bazaarhunt.com - India’s largest online shopping marketplace, with the widest assortment of 35 million plus products across 800 plus diverse categories from over 125,000 regional, national, and international brands and retailers. With millions of users and more than 300,000 sellers, Bazaarhunt is the online shopping site for Internet users across the country, delivering to 6000+ cities and towns in India. In its journey till now, Bazaarhunt has partnered with several global marquee investors and individuals such as SoftBank, BlackRock, Temasek, Foxconn, Alibaba, eBay Inc., Premji Invest, Intel Capital, Bessemer Venture Partners, Mr. Ratan Tata, among others. Online Shopping – A Boon The trend of online shopping is becoming a household name and so is Bazaarhunt. Bazaarhunt  is the preferred choice of hundreds of thousands of online shoppers given its mammoth assortment of 15 million+ products, quick delivery even to the remotest corners of the country, and daily deals, discounts & offers to make products available at slashed down prices to our valuable customers. Get Started! Shop Online Today at bazaarhunt If you have been missing out on all the fun of online shopping thinking it requires one to be a technology aficionado then we have good news for you. Shopping online particularly at Bazaarhunt is a child’s play; all you need is a mobile phone or laptop or tablet with Internet connection to get started. Simply log into Snapdeal.com and browse through the wide assortment of products across  categories. Once you have zeroed in on your favorite products, simply place the order by filling in the details; the products will be delivered right at your doorstep. Fulfill Your Entrepreneurial Dreams! Sell Today at Bazaarhunt Thanks to easy-to-understand, flexible policies and SD Advisors to help sellers at each step, anyone from a manufacturer to wholesaler to retailer can sell on Bazaarhunt. Begin your entrepreneurial journey with Bazaarhunt as a seller by filling a simple registration form here. Once the registration process is done, you can start selling your products to the entire country by sitting at your home or office. Doesn't it sound thrilling? Of course, it is and the excitement will build up with every order you receive! Start selling at Bazaarhunt today and see your business reach staggering heights. Shop on the Go – Install Bazaarhunt App Today! You can shop for your favourite products at Bazaarhunt even on the go using Snapdeal App. Available for both Android and Apple users, the app can be downloaded from Google Play Store and Apple App Store respectively. The app is quick, user-friendly, and enables shoppers buy products with a breeze. What's more, get timely notifications on your phone or tablet so that you don't miss amazing deals and offers. Download the app right now and experience how fun it is to shop on your mobile!
+       </div>
+
+    </div>
+  </div>
+</div>
+</section>
+
+
+
 
 
 

@@ -6,6 +6,7 @@
 }
 body{
   background-color: #ccc;
+  font-family: inherit;
 }
 a{
   text-decoration: none;
@@ -74,8 +75,15 @@ background-size: cover;
 
 #footer-section{
   background-color: #fff;
-  box-shadow: 0px 5px 12px;
-  border: none;
-  padding: 20px;
+  font-family: inherit;
+  border: 1px solid rgb(170, 165, 165);
+  padding: 30px;
+  margin-bottom:0px;
+}
+.payment-card{
+   background-color: #fff;
+  
+  border: 1px solid rgb(170, 165, 165);
+  padding: 10px;
   margin-bottom: 30px;
 }
