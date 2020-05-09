@@ -87,3 +87,10 @@ background-size: cover;
   padding: 10px;
   margin-bottom: 30px;
 }
+
+/* electronics page style  */
+
+.my_sidebar{
+background-color: #eee;
+height: auto;
+}
