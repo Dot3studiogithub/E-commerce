@@ -93,4 +93,10 @@ background-size: cover;
 .my_sidebar{
 background-color: #eee;
 height: auto;
+
+}
+
+.contentarea{
+  background: #fff;
+  height: auto;
 }

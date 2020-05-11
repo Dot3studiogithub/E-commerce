@@ -45,7 +45,10 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarcate">
    <ul class="navbar-nav mx-auto">
-   <li class="nav-item active">
+   <li class="nav-item">
+   <a href="electronics.php" class="nav-link menubar-link ">Mobile & Tablet</a>
+   </li>
+   <li class="nav-item">
    <a href="electronics.php" class="nav-link menubar-link ">Electronics</a>
    </li>
    <li class="nav-item">
