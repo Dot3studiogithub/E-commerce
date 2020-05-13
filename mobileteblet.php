@@ -2,6 +2,11 @@
    $page='Mobile & Tablet';
  include("assets/inc/header.php");
 include("assets/inc/navbar.inc.php");
+
+
+$sql = "SELECT * FROM add_category WHERE cate_name='mobile & tablet'";
+$run =  mysqli_query($conn,$sql);
+
 ?>
 
  <!-- breadcrumb start  -->
@@ -24,21 +29,19 @@ include("assets/inc/navbar.inc.php");
 <!-- end panel-heading   -->
 <div class="card-body">
 <ul class="navbar-nav flex-column" id="catemenu">
+
+<?php
+while( $ress = mysqli_fetch_array($run)){
+  ?>
+
 <li class="nav-item active">
-  <a href="#" class="nav-link text-dark">Mobile Phone <span class="badge badge-secondary">66</span></a> 
+  <a href="#" class="nav-link text-dark"><?php echo $ress['sub_category'];?> <span class="badge badge-secondary">66</span></a> 
 </li>
-<li class="nav-item">
-  <a href="#" class="nav-link">tablet <span class="badge badge-secondary">66</span></a> 
-</li>
-<li class="nav-item">
-  <a href="#" class="nav-link">Mobile accessories <span class="badge badge-secondary">66</span></a> 
-</li>
-<li class="nav-item">
-  <a href="#" class="nav-link">Tablet accessories <span class="badge badge-secondary">66</span></a> 
-</li>
-<li class="nav-item">
-  <a href="#" class="nav-link">Feature Phone <span class="badge badge-secondary">66</span></a> 
-</li>
+
+<?php
+}
+?>
+
 </ul>
 </div>
 </div>

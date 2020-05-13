@@ -2,6 +2,11 @@
 $page='electronics';
 include("assets/inc/header.php");
 include("assets/inc/navbar.inc.php");
+
+$data = "SELECT * FROM add_category WHERE cate_name='electronics'";
+$run =  mysqli_query($conn,$data);
+
+
 ?>
 
  <!-- breadcrumb start  -->
@@ -24,24 +29,17 @@ include("assets/inc/navbar.inc.php");
 <!-- end panel-heading   -->
 <div class="card-body">
 <ul class="navbar-nav flex-column" id="catemenu">
+<?php
+while( $ress = mysqli_fetch_array($run)){
+  ?>
+
 <li class="nav-item active">
-  <a href="#" class="nav-link text-dark">Television <span class="badge badge-secondary">66</span></a> 
+  <a href="#" class="nav-link text-dark"><?php echo $ress['sub_category'];?> <span class="badge badge-secondary">66</span></a> 
 </li>
-<li class="nav-item">
-  <a href="#" class="nav-link">Washining Machine <span class="badge badge-secondary">66</span></a> 
-</li>
-<li class="nav-item">
-  <a href="#" class="nav-link">Cooler & AC <span class="badge badge-secondary">66</span></a> 
-</li>
-<li class="nav-item">
-  <a href="#" class="nav-link">Fans <span class="badge badge-secondary">66</span></a> 
-</li>
-<li class="nav-item">
-  <a href="#" class="nav-link">irons <span class="badge badge-secondary">66</span></a> 
-</li>
-<li class="nav-item">
-  <a href="#" class="nav-link">Camera <span class="badge badge-secondary">66</span></a> 
-</li>
+
+<?php
+}
+?>
 </ul>
 </div>
 </div>
