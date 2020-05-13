@@ -6,7 +6,7 @@
 <div class="card-body">
 <ul class="navbar-nav flex-column" id="catemenu">
 <li class="nav-item active">
-  <a href="#" class="nav-link">Mobile Phone <span class="badge badge-secondary">66</span></a> 
+  <a href="#" class="nav-link text-dark">Mobile Phone <span class="badge badge-secondary">66</span></a> 
 </li>
 <li class="nav-item">
   <a href="#" class="nav-link">tablet <span class="badge badge-secondary">66</span></a> 

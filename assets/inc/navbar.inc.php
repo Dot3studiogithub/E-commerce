@@ -45,10 +45,10 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarcate">
    <ul class="navbar-nav mx-auto">
-   <li class="nav-item">
-   <a href="electronics.php" class="nav-link menubar-link ">Mobile & Tablet</a>
+   <li class="nav-item <?php if($page=='Mobile & Tablet'){echo 'active';}?>">
+   <a href="mobileteblet.php" class="nav-link menubar-link ">Mobile & Tablet</a>
    </li>
-   <li class="nav-item">
+   <li class="nav-item <?php if($page=='electronics'){echo 'active';}?>">
    <a href="electronics.php" class="nav-link menubar-link ">Electronics</a>
    </li>
    <li class="nav-item">

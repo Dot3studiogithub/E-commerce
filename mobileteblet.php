@@ -1,6 +1,6 @@
 <?php
-$page='electronics';
-include("assets/inc/header.php");
+   $page='Mobile & Tablet';
+ include("assets/inc/header.php");
 include("assets/inc/navbar.inc.php");
 ?>
 
@@ -8,7 +8,7 @@ include("assets/inc/navbar.inc.php");
  <nav aria-label="breadcrumb">
   <ol class="breadcrumb ">
     <a  href="index.php" class="breadcrumb-item active text-danger" aria-current="page">Home</a>
-    <li class="breadcrumb-item " aria-current="page">Electronics</li>
+    <li class="breadcrumb-item " aria-current="page">Mobile & Tablet</li>
   </ol>
 </nav>
 
@@ -25,22 +25,19 @@ include("assets/inc/navbar.inc.php");
 <div class="card-body">
 <ul class="navbar-nav flex-column" id="catemenu">
 <li class="nav-item active">
-  <a href="#" class="nav-link text-dark">Television <span class="badge badge-secondary">66</span></a> 
+  <a href="#" class="nav-link text-dark">Mobile Phone <span class="badge badge-secondary">66</span></a> 
 </li>
 <li class="nav-item">
-  <a href="#" class="nav-link">Washining Machine <span class="badge badge-secondary">66</span></a> 
+  <a href="#" class="nav-link">tablet <span class="badge badge-secondary">66</span></a> 
 </li>
 <li class="nav-item">
-  <a href="#" class="nav-link">Cooler & AC <span class="badge badge-secondary">66</span></a> 
+  <a href="#" class="nav-link">Mobile accessories <span class="badge badge-secondary">66</span></a> 
 </li>
 <li class="nav-item">
-  <a href="#" class="nav-link">Fans <span class="badge badge-secondary">66</span></a> 
+  <a href="#" class="nav-link">Tablet accessories <span class="badge badge-secondary">66</span></a> 
 </li>
 <li class="nav-item">
-  <a href="#" class="nav-link">irons <span class="badge badge-secondary">66</span></a> 
-</li>
-<li class="nav-item">
-  <a href="#" class="nav-link">Camera <span class="badge badge-secondary">66</span></a> 
+  <a href="#" class="nav-link">Feature Phone <span class="badge badge-secondary">66</span></a> 
 </li>
 </ul>
 </div>
@@ -91,22 +88,14 @@ include("assets/inc/navbar.inc.php");
 <input type="checkbox" value="apple" >
 <label for="">
 
-<a href="" class="nav-link">LG <span class="badge badge-secondary">66</span></a>
+<a href="" class="nav-link">Apple <span class="badge badge-secondary">66</span></a>
 </label>
 </li>
 <li class="nav-item">
 <input type="checkbox" value="apple" >
 <label for="">
 
-<a href="" class="nav-link">Mi <span class="badge badge-secondary">66</span></a>
-</label>
-</li>
-
-<li class="nav-item">
-<input type="checkbox" value="apple" >
-<label for="">
-
-<a href="" class="nav-link">Kodak <span class="badge badge-secondary">66</span></a>
+<a href="" class="nav-link">Redmi <span class="badge badge-secondary">66</span></a>
 </label>
 </li>
 
@@ -114,7 +103,15 @@ include("assets/inc/navbar.inc.php");
 <input type="checkbox" value="apple" >
 <label for="">
 
-<a href="" class="nav-link">Videocon <span class="badge badge-secondary mr-3">66</span></a>
+<a href="" class="nav-link">nokia <span class="badge badge-secondary">66</span></a>
+</label>
+</li>
+
+<li class="nav-item">
+<input type="checkbox" value="apple" >
+<label for="">
+
+<a href="" class="nav-link">oppo <span class="badge badge-secondary">66</span></a>
 </label>
 </li>
 
@@ -130,7 +127,7 @@ include("assets/inc/navbar.inc.php");
 <input type="checkbox" value="apple" >
 <label for="">
 
-<a href="" class="nav-link">hewai <span class="badge badge-secondary">66</span></a>
+<a href="" class="nav-link">vivo <span class="badge badge-secondary">66</span></a>
 </label>
 </li>
 </ul>
@@ -145,7 +142,7 @@ include("assets/inc/navbar.inc.php");
 <!-- end sidebar menu  -->
 
 <div class="col-md-9 contentarea">
- <div class="h6 text-secondary card-header">Electronics<span>(1154 Items)</span></div>
+ <div class="h6 text-secondary card-header">Mobile Phone <span>(154 Items)</span></div>
  <div class="row my-3">
    <div class="col-md-3">
        <div class="card mycard">
