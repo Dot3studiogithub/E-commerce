@@ -1,16 +1,16 @@
 <!-- navbar start  -->
 <nav class="navbar navbar-expand-md navbar-dark topbar">
 <a href="dashboard.php" class="navbar-brand my-logo">BAZAARHUNT</a>
-<button type="button" class="navbar-toggler" data-target="#navbarcollapse" data-toggle="cllapse">
+<button type="button" class="navbar-toggler" data-target="#navbarcollapse" data-toggle="collapse">
 <span class="navbar-toggler-icon"></span>
 </button>
 <div class="collapse navbar-collapse" id="navbarcollapse">
 <ul class="navbar-nav ml-auto">
-<li class="nav-item">
+<li class="nav-item <?php if($page=='Dashboard'){echo 'active';}?>">
 <a href="dashboard.php" class="nav-link"><i class="fas fa-home text-light mr-2"></i>Dashboard</a>
 </li>
 
-      <li class="nav-item">
+<li class="nav-item <?php if($page=='categories'){echo 'active';}?>">
 <a href="categories.php" class="nav-link">Categories</a>
 </li>
 
@@ -29,7 +29,7 @@
 </li>
 
     <li class="nav-item">
-<a href="admin-logout.php" class="nav-link">Logout</a>
+<a href="signout.php" class="nav-link">Logout</a>
 </li>
 
 </ul>

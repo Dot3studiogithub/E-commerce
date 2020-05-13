@@ -3,7 +3,7 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 13px;
+    font-size: 14px;
 }
 .topbar{
   background-color: #e40046!important;
@@ -19,6 +19,9 @@
     border-radius: 10px;
     
     
+}
+.active{
+    color: black!important;
 }
 .fiture{
     background-color:#363062 ;
