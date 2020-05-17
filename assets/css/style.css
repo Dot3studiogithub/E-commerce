@@ -100,3 +100,14 @@ height: auto;
   background: #fff;
   height: auto;
 }
+
+
+
+/* single product detail page style  */
+.mrp{
+  text-decoration: line-through;
+  
+}
+.ngp{
+  display: inline-block;
+}

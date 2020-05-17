@@ -4,37 +4,7 @@ include("assets/inc/header.php");
 include("assets/inc/navbar.inc.php");
 
 if(!isset($_SESSION['user'])){
-    header("Location: inde x.php");
-}
-
-if(isset($_GET['type']) && $_GET['type']!='')
-{
-  $type = $_GET['type'];
-  $type = mysqli_real_escape_string($conn,$type);
-     if($type=='status')
-     {
-      $opration = $_GET['opration'];
-      $opration = mysqli_real_escape_string($conn,$opration);
-      $id = $_GET['id'];
-      $id = mysqli_real_escape_string($conn,$id);
-      
-      if($opration=='active'){
-         $status='1';
-      }
-      else{
-        $status='0';
-      }
-      $update_status = "UPDATE `add_category` SET `status`='$status' WHERE id='$id'";
-      $updatedata = mysqli_query($conn,$update_status);
-     }
-
-     if($type=='delete')
-     {
-       $id = $_GET['id'];
-       $id = mysqli_real_escape_string($conn,$id);
-       $delete_sql = "DELETE FROM `add_category` WHERE id='$id'";
-       $data = mysqli_query($conn,$delete_sql);
-     }
+    header("Location: index.php");
 }
 
  $t = "SELECT * FROM add_category";
@@ -78,8 +48,8 @@ $data = mysqli_query($conn, $query);
                         <th>sr</th>
                         <th>category</th>
                         <th>sub-category</th>
-                        <th>action</th>
-                        <th>status</th>
+                        
+                       
                         <th>Update</th>
                         <th>Delete</th>
                     </tr>
@@ -94,23 +64,10 @@ $data = mysqli_query($conn, $query);
                              <td><?php echo $res['id'];?></td>
                              <td><?php echo $res['cate_name'];?></td>
                              <td><?php echo $res['sub_category'];?></td>
-                             <td><?php echo $res['status'];?></td>
-                             <td>
-                                 <?php
-                            if($res['status']==1)
-                            {
-                                
-                            echo "<a href='?type=status&opration=deactive&id=".$res['id']."' class='btn btn-success'>Active</a>";
-                                
-                            }
-                            else{
-                                echo "<a href='?type=status&opration=active&id=".$res['id']."' class='btn btn-warning'>Deactive</a>";
-                            }
-                            
-                            ?>
-                            </td>
+                             
+                             
                             <td><a href="edit_cate.php?id=<?php echo $res['id'];?>" class='btn btn-info'>edit</a></td>
-                            <td><a href="?type=delete&id=<?php echo $res['id'];?>" class='btn btn-danger'>Delete</a></td>
+                            <td><a href="cate_delete.php?id=<?php echo $res['id'];?>" class='btn btn-danger'>Delete</a></td>
                          </tr>
 
 

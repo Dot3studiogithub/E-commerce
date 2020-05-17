@@ -3,8 +3,22 @@
  include("assets/inc/header.php");
 include("assets/inc/navbar.inc.php");
 
-
-$sql = "SELECT * FROM add_category WHERE cate_name='mobile & tablet'";
+// $t = "SELECT * FROM add_category";
+//  $d = mysqli_query($conn,$t);
+//  $total = mysqli_num_rows($d);
+//  $start = 0;
+//  $limit = 8;
+ 
+//  $page = ceil($total/$limit);
+//  if(isset($_GET['id']))
+//  {
+//    $id = $_GET['id'];
+//    $start = ($id-1)*$limit;
+//  }
+//  else{
+//    $id = 1;
+//  }
+$sql = "SELECT * FROM add_category WHERE cate_name='mobile & tablet' ";
 $run =  mysqli_query($conn,$sql);
 
 ?>
@@ -35,7 +49,7 @@ while( $ress = mysqli_fetch_array($run)){
   ?>
 
 <li class="nav-item active">
-  <a href="#" class="nav-link text-dark"><?php echo $ress['sub_category'];?> <span class="badge badge-secondary">66</span></a> 
+  <a href="#" class="nav-link text-dark"><?php echo $ress['sub_category'];?> <span class="badge badge-danger">66</span></a> 
 </li>
 
 <?php
@@ -208,19 +222,7 @@ while( $ress = mysqli_fetch_array($run)){
    <!-- end col-md-3  -->
    
  </div>
- <nav aria-label="Page navigation example my-3">
-  <ul class="pagination justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
-    </li>
-    <li class="page-item"><a class="page-link" href="#">1</a></li>
-    <li class="page-item"><a class="page-link" href="#">2</a></li>
-    <li class="page-item"><a class="page-link" href="#">3</a></li>
-    <li class="page-item">
-      <a class="page-link" href="#">Next</a>
-    </li>
-  </ul>
-</nav>
+
 </div>
 <!-- end content  -->
 </div>

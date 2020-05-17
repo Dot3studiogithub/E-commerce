@@ -3,9 +3,6 @@
 
 
 ?>
-
-
-
 <?php include("assets/inc/navbar.inc.php");?>
 
 <!-- strat main carousel  -->
@@ -81,7 +78,7 @@
 <div class="owl-carousel owl-theme">
   <!-- start first product card  -->
     <div class="item">
-      <a href="" class="text-decoration-none">
+      <a href="single_product.php" class="text-decoration-none">
       <div class="card mycard">
       
         <img src="assets/img/mobile-png-10855.png" alt="" width="200px" height="200px" class="card-img-top">
@@ -113,7 +110,7 @@
 
   <!-- start first product card  -->
     <div class="item">
-      <a href="" class="text-decoration-none">
+      <a href="single_product.php" class="text-decoration-none">
       <div class="card mycard">
       
         <img src="assets/img/laptop.png" alt="" width="200px" height="200px" class="card-img-top">
